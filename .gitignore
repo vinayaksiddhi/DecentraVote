@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production & Build Outputs
+dist/
+dist-ssr/
+*.local
+
+# Hardhat Artifacts & Compilation Cache
+artifacts/
+cache/
+**/artifacts/
+**/cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & System Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
