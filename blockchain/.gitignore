@@ -1,0 +1,8 @@
+# Hardhat subproject gitignore
+node_modules/
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+*.log
